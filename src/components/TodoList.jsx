@@ -21,6 +21,7 @@ export const TodoList = () => {
   }
   return (
     <div>
+    <h1>Margaret</h1>
     <TodoForm addTodo={addTodo}/>
     {todos.map((todo, index) =>(
       <Todo task={todo} key={index}
