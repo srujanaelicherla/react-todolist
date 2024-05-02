@@ -1,4 +1,7 @@
+import './App.css';
 import { TodoList } from "./components/TodoList";
+
+
 
 function App() {
   return (
@@ -9,6 +12,7 @@ function App() {
         alignItems: "center",
         height: "100vh",
       }}
+      
     >
       <TodoList />     
     </div>
