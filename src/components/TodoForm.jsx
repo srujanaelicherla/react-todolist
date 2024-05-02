@@ -9,7 +9,7 @@ export const TodoForm = ({addTodo}) => {
       setValue("")
     }
   return (
-    <form onSubmit={handleSubmit}>
+    <form  className="todo-form" onSubmit={handleSubmit}>
       <input type="text" value={value} placeholder="What is the task today?" 
       onChange={(e)=>setValue(e.target.value)}/>
       <button type="submit">Add Task</button>
